@@ -1,0 +1,54 @@
+ Dataset:
+   CustomerID   Age AnnualIncome  SpendingScore  Unnamed: 4  Unnamed: 5  \
+0         1.0  22.0        25000           80.0         NaN         NaN   
+1         2.0  45.0        54000           35.0         NaN         NaN   
+2         3.0  25.0        32000           76.0         NaN         NaN   
+3         4.0  35.0        62000           50.0         NaN         NaN   
+4         5.0  52.0        90000           20.0         NaN         NaN   
+
+   Unnamed: 6  
+0         NaN  
+1         NaN  
+2         NaN  
+3         NaN  
+4         NaN  
+
+Customer Segments:
+    CustomerID   Age  AnnualIncome  SpendingScore  Unnamed: 4  Unnamed: 5  \
+0          1.0  22.0       25000.0           80.0         NaN         NaN   
+1          2.0  45.0       54000.0           35.0         NaN         NaN   
+2          3.0  25.0       32000.0           76.0         NaN         NaN   
+3          4.0  35.0       62000.0           50.0         NaN         NaN   
+4          5.0  52.0       90000.0           20.0         NaN         NaN   
+5          6.0  23.0       28000.0           85.0         NaN         NaN   
+6          7.0  40.0       65000.0           40.0         NaN         NaN   
+7          8.0  28.0       35000.0           75.0         NaN         NaN   
+8          9.0  55.0       95000.0           15.0         NaN         NaN   
+9         10.0  30.0       45000.0           65.0         NaN         NaN   
+10        11.0  27.0       37000.0           72.0         NaN         NaN   
+11        12.0  50.0       85000.0           25.0         NaN         NaN   
+12        13.0  24.0       26000.0           88.0         NaN         NaN   
+13        14.0  38.0       70000.0           45.0         NaN         NaN   
+14        15.0  60.0      100000.0           10.0         NaN         NaN   
+
+    Unnamed: 6  Cluster  
+0          NaN        0  
+1          NaN        2  
+2          NaN        0  
+3          NaN        2  
+4          NaN        1  
+5          NaN        0  
+6          NaN        2  
+7          NaN        0  
+8          NaN        1  
+9          NaN        2  
+10         NaN        0  
+11         NaN        1  
+12         NaN        0  
+13         NaN        2  
+14         NaN        1  
+
+Cluster Centers:
+[[3.05000000e+04 7.93333333e+01]
+ [9.25000000e+04 1.75000000e+01]
+ [5.92000000e+04 4.70000000e+01]]
